@@ -21,7 +21,8 @@ FROM
 	FactSales
 GROUP BY 
 	channelKey
-ORDER BY channelKey ASC 
+ORDER BY 
+	channelKey ASC 
 
 -- B
 SELECT
@@ -30,8 +31,10 @@ SELECT
 	SUM(ReturnQuantity) AS 'Quantidade Devolvida'
 FROM 
 	FactSales
-GROUP BY StoreKey
-ORDER BY StoreKey ASC
+GROUP BY 
+	StoreKey
+ORDER BY 
+	StoreKey ASC
 
 -- C
 SELECT
@@ -39,7 +42,11 @@ SELECT
 	SUM(SalesAmount) AS 'Total Vendido'
 FROM 
 	FactSales
-WHERE DateKey BETWEEN '01-01-2007' AND '31-12-2007'
-GROUP BY channelKey
-ORDER BY [Total Vendido] DESC
+WHERE 
+	DateKey BETWEEN '01-01-2007'
+	AND '31-12-2007'
+GROUP BY
+	channelKey
+ORDER BY 
+	[Total Vendido] DESC
 
