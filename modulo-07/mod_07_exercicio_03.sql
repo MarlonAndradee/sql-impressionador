@@ -1,14 +1,14 @@
 /*
 	FACTONLINESALES
 	3. 
-	a) Você deve fazer uma consulta à tabela FactOnlineSales e descobrir qual é o ID
+	a) VocÃª deve fazer uma consulta Ã  tabela FactOnlineSales e descobrir qual Ã© o ID
 	(CustomerKey) do cliente que mais realizou compras online (de acordo com a coluna
 	SalesQuantity).
 
-	b) Feito isso, faça um agrupamento de total vendido (SalesQuantity) por ID do produto
+	b) Feito isso, faÃ§a um agrupamento de total vendido (SalesQuantity) por ID do produto
 	e descubra quais foram os top 3 produtos mais comprados pelo cliente da letra a). */
 
-SELECT DISTINCT -- A) A ID do cliente que mais realizou compras online é 19037DISTINCT 
+SELECT DISTINCT -- A) A ID do cliente que mais realizou compras online Ã© 19037DISTINCT 
 	CustomerKey, 
 	SUM(SalesQuantity) AS 'Qtd. Comprada'
 FROM 
@@ -18,7 +18,7 @@ GROUP BY
 ORDER BY 
 	SUM(SalesQuantity) DESC
 
-SELECT TOP(3) -- B) Os top três mais comprados foram os productos com as chaves 2515, 2516 e 2506.
+SELECT TOP(3) -- B) Os top trÃªs mais comprados foram os productos com as chaves 2515, 2516 e 2506.
 	ProductKey, 
 	SUM(SalesQuantity) AS 'Qtd. comprada'
 FROM
