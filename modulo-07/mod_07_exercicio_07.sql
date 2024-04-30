@@ -1,5 +1,5 @@
-/* 7. Faça um agrupamento para saber o total de clientes de acordo com o Sexo e também a média
-salarial de acordo com o Sexo. Corrija qualquer resultado “inesperado” com os seus
+/* 7. FaÃ§a um agrupamento para saber o total de clientes de acordo com o Sexo e tambÃ©m a mÃ©dia
+salarial de acordo com o Sexo. Corrija qualquer resultado â€œinesperadoâ€ com os seus
 conhecimentos em SQL. */
 
 SELECT * FROM DimCustomer
