@@ -1,10 +1,10 @@
 /*
 DIMPRODUCT
-4. a) FaÁa um agrupamento e descubra a quantidade total de produtos por marca.
+4. a) Fa√ßa um agrupamento e descubra a quantidade total de produtos por marca.
 
-b) Determine a mÈdia do preÁo unit·rio (UnitPrice) para cada ClassName.
+b) Determine a m√©dia do pre√ßo unit√°rio (UnitPrice) para cada ClassName.
 
-c) FaÁa um agrupamento de cores e descubra o peso total que cada cor de produto possui.
+c) Fa√ßa um agrupamento de cores e descubra o peso total que cada cor de produto possui.
 */
 
 SELECT * FROM DimProduct
