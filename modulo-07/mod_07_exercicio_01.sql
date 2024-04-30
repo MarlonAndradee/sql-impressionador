@@ -3,13 +3,13 @@ FACTSALES
 
 1. 
 
-a) Faça um resumo da quantidade vendida (SalesQuantity) de acordo com o canal de vendas
+a) FaÃ§a um resumo da quantidade vendida (SalesQuantity) de acordo com o canal de vendas
 (channelkey).
 
-b) Faça um agrupamento mostrando a quantidade total vendida (SalesQuantity) e quantidade
+b) FaÃ§a um agrupamento mostrando a quantidade total vendida (SalesQuantity) e quantidade
 total devolvida (Return Quantity) de acordo com o ID das lojas (StoreKey).
 
-c) Faça um resumo do valor total vendido (SalesAmount) para cada canal de venda, mas apenas
+c) FaÃ§a um resumo do valor total vendido (SalesAmount) para cada canal de venda, mas apenas
 para o ano de 2007.
 */
 
